@@ -58,9 +58,9 @@ void Tree::rebalance(Node **node) {
 	else if(balance == 2 && left < 0)
 		doubleRightRotation(node);
 
-	else if(balance == -2 && right <= 0)
+	else if(balance == -2 && right < 0)
 		singleLeftRotation(node);
-	else if(balance == -2 && right > 0)
+	else if(balance == -2 && right >= 0)
 		doubleLeftRotation(node);
 }
 
@@ -80,7 +80,6 @@ void Tree::removeValue(Node **node, Node **f, Item item){
   		*node = (*node)->left;
     	free(temp);
     	rebalance(f);
-    	rebalance(node);
     	return;
   	}
 
