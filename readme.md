@@ -10,4 +10,4 @@ A compilação do programa pode ser feita utilizando o comando "make" e, em segu
 
 ## EXIBIÇÃO DA SEGUNDA ÁRVORE PROPOSTA
 
-![Output AVL2](https://raw.githubusercontent.com/LucasG4K/Exercicio1-AEDSII/main/Atv-C%2B%2B.png)
+![Output AVL2](https://raw.githubusercontent.com/LucasG4K/AVL/main/AVL2.png)
